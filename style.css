@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Space Grotesk', sans-serif;
+}
+.main-container {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.9)
+    ),
+    url(./imgs-design/nrd-D6Tu_L3chLE-unsplash.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.nav {
+  margin: 6px 6px 6px 6px;
+  padding: 8px 64px;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(to right, #084dac, #ec8e4e);
+  margin-bottom: 48px;
+}
+
+.nav i {
+  color: white;
+  font-size: 28px;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+h1 {
+  font-size: 64px;
+  margin-bottom: 12px;
+}
+.h1-first {
+  color: #084dac;
+}
+.h1-second {
+  color: #ec8e4e;
+}
+h3 {
+  color: #084dac;
+  font-size: 32px;
+  margin-bottom: 72px;
+}
+.sign-up-container {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  margin-bottom: 24px;
+}
+.sign-up-container input {
+  width: 260px;
+}
+.sign-up-container input,
+.sign-up-container a {
+  padding: 16px;
+  border: 1px solid black;
+  margin-bottom: 24px;
+}
+.sign-up-container a {
+  width: 150px;
+  align-self: center;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  border: none;
+  background-color: white;
+}
+.no-acc-link {
+  color: black;
+  text-decoration: none;
+}
+.nav-all-sections {
+  /* display: none; */
+}

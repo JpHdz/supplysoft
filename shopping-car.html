@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SupplySoft</title>
+    <link rel="stylesheet" href="style-main.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style-shopping.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/f198221260.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <nav class="nav-main">
+      <i class="ph ph-list"></i>
+      <div class="nav-search-container">
+        <input class="nav-search" type="text" placeholder="Search" />
+        <i class="ph ph-magnifying-glass"></i>
+      </div>
+      <i class="ph ph-user-circle"></i>
+    </nav>
+    <main class="main">
+      <h1>
+        <span class="h1-first">Supply</span><span class="h1-second">soft</span>
+      </h1>
+      <div class="cart-container">
+        <div class="cart-all-products">
+          <ion-icon
+            class="cart-section-cart-icon"
+            name="cart-outline"
+          ></ion-icon>
+          <ul>
+            <li>
+              Bacardi de Mango 750ml (120) <span class="mayoreo">Mayoreo</span>
+            </li>
+            <li>
+              Bacardi Blanco 750ml (100) <span class="mayoreo">Mayoreo</span>
+            </li>
+            <li>
+              Smirnoff de Tamarindo 750ml (80)
+              <span class="mayoreo">Mayoreo</span>
+            </li>
+            <li>
+              Maestro Dobel 900mL (5) <span class="menudeo">Menudeo</span>
+            </li>
+          </ul>
+        </div>
+        <div class="cart-payment">
+          <h4>Información Personal</h4>
+          <p>Por favor escriba los datos requeridos para pagar</p>
+
+          <form class="form-payment">
+            <label for="nombre">Nombre completo:</label>
+            <input
+              type="text"
+              id="nombre"
+              placeholder="ej. Juan Hernandez Ponce"
+            />
+            <label for="correo">Correo electronico:</label>
+            <input
+              type="text"
+              name="correo"
+              id="correo"
+              placeholder="ej. jp1234@gmail.com"
+            />
+            <label for="telefono">Telefono:</label>
+            <input
+              type="text"
+              name="telefono"
+              id="telefono"
+              placeholder="ej. 473-234-1253"
+            />
+            <label for="tarjeta">Numero de Tarjeta:</label>
+            <input
+              type="text"
+              name="tarjeta"
+              id="tarjeta"
+              placeholder="ej. 1323-5432-5443-3264-2345"
+            />
+            <label for="pin">PIN:</label>
+            <input type="text" name="pin" id="pin" placeholder="ej. 321" />
+            <a href="#" class="pagar">PAGAR</a>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
